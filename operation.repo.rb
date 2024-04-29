@@ -4,7 +4,7 @@ class OperationRepo < Formula
   desc "Creates an operation folder repo like Git commandline."
   homepage "https://github.com/elprofesor96/operation.repo"
   url "https://github.com/elprofesor96/operation.repo/archive/refs/tags/v2.0.0.tar.gz"
-  sha256 "1fc6c962bb121c7c5f277930f6f8e6449b915f9ea6ec0b79e9a40f366db218df"
+  sha256 "98d393dc2832e35a4c1503b7ecd69863ee8591efb3298994992645c095798c96"
   license "MIT"
 
   depends_on "python@3.12"
