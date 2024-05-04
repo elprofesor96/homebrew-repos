@@ -7,7 +7,7 @@ class OperationRepo < Formula
   sha256 "8e04a36cb12fd216f3b05bddbf96e3b096993f4c2b516ab5a87ce0f308210060"
   license "MIT"
 
-  depends_on "python@3.12"
+  #depends_on "python@3.12"
 
 
   resource "tqdm" do
