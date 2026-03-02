@@ -3,8 +3,8 @@ class OperationRepo < Formula
 
   desc "Git-like CLI tool for organizing operations, pentests, and projects"
   homepage "https://github.com/elprofesor96/operation.repo"
-  url "https://github.com/elprofesor96/operation.repo/archive/refs/tags/v3.1.0.tar.gz"
-  sha256 "0f1eb25bc4a2492e4417493fffafbd299b1abf42bdfe35fc93c228cad8ba9242"
+  url "https://github.com/elprofesor96/operation.repo/archive/refs/tags/v3.1.1.tar.gz"
+  sha256 "280b40384367eae30bdbb7c5486c6b4efafed06ece295ac23e2fafa35b8647e9"
   license "CC-BY-NC-ND-4.0"
 
   depends_on "python@3.12"
