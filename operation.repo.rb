@@ -8,9 +8,11 @@ class OperationRepo < Formula
   license "CC-BY-NC-ND-4.0"
 
   depends_on "python@3.12"
-  depends_on "maturin" => :build
+  depends_on "rust" => :build
+  depends_on "openssl@3"
 
   def install
+    ENV["OPENSSL_DIR"] = Formula["openssl@3"].opt_prefix
     virtualenv_install_with_resources
   end
 
