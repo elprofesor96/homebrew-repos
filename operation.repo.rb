@@ -10,9 +10,11 @@ class OperationRepo < Formula
   depends_on "python@3.12"
   depends_on "rust" => :build
   depends_on "openssl@3"
+  depends_on "libsodium"
 
   def install
     ENV["OPENSSL_DIR"] = Formula["openssl@3"].opt_prefix
+    ENV["SODIUM_INSTALL"] = "system"
     virtualenv_install_with_resources
   end
 
