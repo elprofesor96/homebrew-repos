@@ -8,6 +8,7 @@ class OperationRepo < Formula
   license "CC-BY-NC-ND-4.0"
 
   depends_on "python@3.12"
+  depends_on "maturin" => :build
 
   def install
     virtualenv_install_with_resources
