@@ -12,4 +12,5 @@ brew install [package.name]
 |  Name |
 |--------|
 | operation.repo | 
-| operation.logger |  
+| operation.logger |
+| operation.vault |   
