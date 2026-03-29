@@ -3,8 +3,8 @@ class OperationLogger < Formula
 
   desc "Terminal/Tmux session logger for security professionals and devs."
   homepage "https://github.com/elprofesor96/operation.logger"
-  url "https://github.com/elprofesor96/operation.logger/archive/refs/tags/v1.3.0.tar.gz"
-  sha256 "14e0754d52cf93be085c2b2d650dc69c159841feb19e178fe4f9641936f7f2bf"
+  url "https://github.com/elprofesor96/operation.logger/archive/refs/tags/v1.4.1.tar.gz"
+  sha256 "b08d08945ff6d1026ba25beff5ade57437bf788e2e7409fce64c5cac46ee921e"
   license "CC-BY-NC-ND-4.0"
 
   depends_on "python@3.12"
