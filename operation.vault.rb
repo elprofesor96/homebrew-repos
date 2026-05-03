@@ -3,8 +3,8 @@ class OperationVault < Formula
 
   desc "Secure credential storage for security engagements."
   homepage "https://github.com/elprofesor96/operation.vault"
-  url "https://github.com/elprofesor96/operation.vault/archive/refs/tags/v2.2.11.tar.gz"
-  sha256 "c3377e9d96df90b5b97fe289b985b86861590d767ac14bfdc0c504dc7c7f6cde"
+  url "https://github.com/elprofesor96/operation.vault/archive/refs/tags/v2.2.12.tar.gz"
+  sha256 "61625b08273a5975f2b9f0f90f1c35865982abb409d4526c7270d4cd8466e122"
   license "CC-BY-NC-ND-4.0"
 
   depends_on "python@3.12"
